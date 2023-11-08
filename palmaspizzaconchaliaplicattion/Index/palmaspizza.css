@@ -1,0 +1,2018 @@
+
+
+.modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+   
+}
+#btn-modal:checked ~ .modal{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor{
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	background: #fff;
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+}
+#btn-modal:checked ~ .modal .contenedor{
+	transform: translateY(0%);
+    opacity: 1;
+} 
+.contenedor header{
+	padding: 10px;
+	background: #db8046;
+	color: #fff;
+}
+.contenedor label{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	font-size: 45px;
+	cursor: pointer;
+}
+.contenido{
+	width: 100%;
+	padding: 10px; 
+}
+.contenido h3{
+	margin-bottom: 10px;
+}
+.contenido p{
+	margin-bottom: 7px;
+}
+#btn-modal{
+	display: none;
+}
+.lbl-modal{
+	background: #fff;
+	padding: 10px 15px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.contenedor{
+		width: 95%;
+	}
+}
+
+.btn-group {
+    text-align: center;
+  }
+  
+
+
+  .modal {
+    position: fixed;
+    margin-top: 140px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 80;
+    width: 100% !important;
+    height: auto;
+  }
+  
+  .modal.is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .modal-dialog {
+    position: relative;
+    width: 100% !important;
+    height: 70px;
+    border-radius: 5px;
+    overflow: auto;
+    cursor: default;
+  }
+  
+  .modal-dialog > * {
+
+  }
+  
+  .modal-header,
+  .modal-footer {
+  }
+  
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .modal-header .close-modal {
+    font-size: 45px;
+  }
+  
+  .modal p + p {
+  
+  }
+
+
+
+
+
+.palmaspizzalogo {
+ height: 55px;
+ background-color: #ff8900;
+ margin: 2px;
+ padding-top: 8px;
+ margin-left: -25px;
+}
+
+#total {
+  background-color: #ffffff;
+z-index: 9 !important;
+margin-top: 3px;
+margin-left: 67px;
+max-width: 30%;
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+font-size: 150% !important;
+color: #ff6a00;
+border: solid 2px black;
+font-size: 190% !important;
+letter-spacing: 1px;
+font-family: 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+height: 60px;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(fondo.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+  }
+
+  .modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: all 500ms ease;
+	opacity: 1;
+	visibility: hidden;
+    box-shadow: 10px 70px 250px rgb(0, 0, 0);
+}
+#btn-modal:checked ~ .modal{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor{
+	height: 300px;
+	margin: auto;
+	background: #fff;
+	box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+}
+#btn-modal:checked ~ .modal .contenedor{
+	transform: translateY(0%);
+} 
+.contenedor header{
+	background: #db8046;
+	color: #fff;
+}
+.contenedor label{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+}
+.contenido{
+	width: 100%; 
+}
+.contenido h3{
+}
+.contenido p{
+
+}
+#btn-modal{
+	display: none;
+}
+.lbl-modal{
+	background: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.contenedor{
+		width: 100% !important;
+	}
+}
+
+  .formulario {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+    background: rgb(255, 255, 255);
+  }
+  
+  .imgLogo {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /*border: 1px solid rgba(109, 86, 10, 0.7);*/
+  }
+  
+  .formulario__titulo,
+  .formulario__subtitulo,
+  .formulario__parrafo {
+    text-align: center;
+    margin-top: 0;
+    color: rgb(255, 102, 0) !important;
+  }
+  .formulario__titulo,
+  .formulario__subtitulo {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .formulario__parrafo {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .formulario__input,
+  .formulario__label {
+    display: block;
+    width: 100%;
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium';
+  }
+  .formulario__input {
+    padding: 10px;
+    background: white;
+    /* puedo colocar otro color pero con transparencia asi: background: rgba(0,0,0,0.1) porque sino no se ven las label, aunque ya no es necesario porque ya no estan sobre los input y ademas le quite el z-index*/
+    border: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #ff7700;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .formulario__input:focus {
+    /*outline: 1px solid rgba(0,0,0,0.7);*/
+    outline: none;
+    border-bottom: #ff7700;
+    box-shadow: 0px 3px 0px #ff7700;
+    transform: translateX(0%);
+  }
+
+  .formulario__input:focus::after {
+    /*outline: 1px solid rgba(0,0,0,0.7);*/
+    outline: none;
+    border-bottom: #ff7700;
+    box-shadow: 0px 3px 0px #ff7700;
+    transform: translateX(0%);
+  }
+
+
+
+
+
+  /*.formulario__input:focus + .formulario__label{
+      margin-top: -120px;
+  }*/
+  .formulario__label {
+    padding-left: 15px;
+    /*position: absolute;*/
+    /*margin-top: -78px;*/
+    /*z-index: -20;*/
+    color: rgba(0, 0, 0, 0.7);
+    /*transition: all 0.2s;*/
+    margin: 2px;
+    color: #ff6a00;
+  }
+  .formulario__submit {
+    background: linear-gradient(#075E54, #128C7E, #0eb54b);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    font-size: 180%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+  }
+  
+  /*Centrar los campos del formulario (Los input y el boton de Enviar al WhatsApp, que tambien es un input)*/
+  
+  .formulario__input,
+  .formulario__submit {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /*.fijar {
+      margin-top: -120px;
+  } */
+  
+  /* respuesta del formulario */
+  #respuesta {
+    position: inherit;
+    width: 100%;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5%;
+  }
+  #respuesta.fail {
+    color: red;
+  }
+  #respuesta.send {
+    color: green;
+  }
+  
+  #telefono {
+    padding-left: 45px;
+    background-color: transparent;
+    z-index: 2;
+    position: absolute !;
+    margin-top: -18% !;
+    margin-left: 1% !; 
+  }
+
+  #telefono::-moz-focus-inner{
+    background-color: transparent;
+  }
+  #codigodepais {
+    position: absolute;
+  margin-top: -18%;
+  margin-left: 5%;
+  width: auto;
+  padding: 0;
+  border: none;
+  color: black;
+z-index: 1 !important;
+background-color: transparent;
+position: relative; 
+background-color: transparent; 
+}
+
+.item {
+    border: solid #ff8900 10px ;
+    width: 200px;
+    height: 200px;
+}
+
+.item-img {
+    width: 50px;
+    height: 50px;
+}
+
+#concuantocancela {
+ position: fixed;
+ width: 90%;
+ height: 60%;
+ margin: auto;
+ border: black 2px;
+ background-color: #fff;
+ z-index: 6;
+ box-shadow: black 40px;
+}
+
+
+
+#pagacon::placeholder{
+    color: black;
+}
+
+#formadepago{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -18%;
+    font-size: 200%;
+    border: 0px;
+    padding: 0px;
+    width: 80%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: auto;
+    text-align: center;
+      z-index: 1 !important;
+  }
+
+#formadepagox{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: -20%;
+  font-size: 200%;
+  border: 0px;
+  padding: 0px;
+  width: 80%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: auto;
+  text-align: center;
+  z-index: 2 !important;
+
+}
+
+
+
+
+
+
+.button {
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+    box-shadow: black 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 19px;
+    background: linear-gradient(#ff8900, #ff7700, rgb(255, 55, 0));
+    border: #db8046;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 19px;
+    text-align: center;
+    padding: 10;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+#efectivo {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -11px;
+    font-size: 18px;
+    height: 46px;
+    z-index: 3;
+}
+
+#transferencia {
+  position: absolute;
+  margin-left: 130px;
+  margin-top: -11px;
+  font-size: 18px;
+  height: 46px;
+  z-index: 3;
+  
+}
+
+.formulario__pizza {
+  height: 150px;
+}
+
+.img-pizza {
+width: 100px;
+position: relative;
+
+}
+
+#imagen-napolitana {
+  position: relative;
+}
+
+.nombre-pizza {
+position: relative;
+margin: 0;
+margin-left: 110px;
+font-family: impact;
+font-size: 190%;
+margin-top: -100px;
+
+}
+
+.ing-pizza {
+margin: 0;
+color: rgb(255, 123, 0);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 148%;
+margin-left: 30%;
+margin-top: 16px !important;
+width: 60%;
+position: relative;
+margin: 0;
+margin-left: 110px;
+font-family: impact;
+letter-spacing: 1px;
+
+}
+
+.precio-pizza {
+  margin: 0;
+  color: rgb(0, 0, 0);
+  font-size: 200%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  margin-left: 72%;
+  margin-top: -50px;
+
+  }
+
+.precios {
+ margin-top: -90px;
+ font-size: 80%;
+}
+
+.buttonpizza {
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+.input__cantidad{
+  width: 20px;
+}
+
+.quitar {
+position: absolute;
+width: 60px;
+margin-left: 230px;
+margin-top: 87px;
+height: 47px;
+
+}
+
+.agregar {
+  position: absolute;
+width: 60px;
+margin-left: 350px;
+margin-top: 87px;
+height: 47px;
+}
+
+.tamaño {
+  background: transparent;
+  border: #ff6a00;
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;  
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+
+/* REAL MODAL */
+.modal {
+  background-color: #8d3c3c;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 5px 52px 8px rgb(0, 0, 0);
+
+
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+
+.open-modal {
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.modal {
+  position: relative;
+  margin-top: 140px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 80;
+  z-index: 100;
+
+}
+
+.modal.is-visible {
+  visibility: visible;
+  opacity: 9;
+}
+
+.modal-dialog {
+  position: relative;
+
+
+  border-radius: 5px;
+  overflow: auto;
+  cursor: default;
+
+}
+
+.modal-dialog > * {
+  
+}
+
+.modal-header,
+.modal-footer {
+  background: var(--lightgray);
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-header .close-modal {
+  font-size: 45px;
+}
+
+.modal p + p {
+
+}
+
+.button-select {
+  border-radius: 8px;
+  color: #ff7700;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 150%;
+  background: #fff;
+  border: solid #ff7700 4px;
+  text-align: center;
+  padding: 10;
+  
+}
+
+
+.carrofixedheader {
+  position: fixed;
+  height: 8%;
+  margin-top: -53px;
+ background-color: transparent;
+  padding: 6px;
+  border-radius: 0px;
+  margin-left: 0%;
+  z-index: 20;
+  border: white;
+
+}
+
+#carrito {
+ padding-right: 12px;
+ border-radius: 0;
+ border-top-left-radius: 8px;
+ border-bottom-left-radius: 8px;
+ margin-top: -28px;
+ height: 60px !important;
+ border: solid black 2px;
+ border-left: 0px;
+}
+
+
+#button-carrito{
+  position: fixed;
+  margin-top: 6px;
+  background-color: transparent;
+  z-index: 138737874843784 !important;
+  padding-right: 45%;
+  height: 50px !important;
+}
+
+.buttxn {
+  border: #fff;
+  color: #fff;
+  background-color: transparent;
+  width: 0px !important;
+  height: 0px !important;
+  border-radius: 7px;
+}
+
+#title-header-nav-1 {
+  z-index: 1;
+  font-size: 140%;
+  font-family: sans-serif;
+  color: #fff;
+  margin-top: -50px;
+  margin-left: 100px;
+  background-color: #ff8900;
+  height: 33px;
+ }
+ 
+ #title-header-nav-2 {
+   z-index: 1;
+   font-size: 140%;
+   font-family: sans-serif;
+   color: #fff;
+   margin-top: -23px;
+   margin-left: 95px;
+   background-color: #ff8900;
+   height: 23px ;
+  }
+
+@media screen and (max-width:480px){
+	body {
+		font-size:80%;
+	} 
+}
+
+@media screen and (min-width: 1024px) { }
+
+@media screen and (min-width: 321px) and (max-width: 768px) { }
+
+/* Diseño para celulares */
+#columna1, #columna2, #columna3 {
+	float:none;
+	width:100%;
+}
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+	#columna1, #columna2 {
+		float:left;
+		width:50%;
+	}
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 1025px) {
+	#columna1, #columna2, #columna3 {
+	float:left;
+	width:33%;
+}
+}
+
+body {
+  min-width: 100%;
+  max-width: 100%;
+	font-size: 80% !important;
+  background: white !important;
+}
+
+/* porcentaje base, solo en el body */
+p {
+	font-size:0.9em;
+}
+h1 {
+	font-size: 250%;
+}
+h2 {
+	font-size:1.4em;
+}
+#pie {
+	font-size:1.2em;
+}
+.epigrafes {
+	font-size:1.1em;
+}
+
+/* fin de zona común a todas las resoluciones */
+@media screen and (min-width:800px) {
+	body {
+		font-size:100%;
+		/* ampliamos los textos si mide más de 800px */
+	}
+}
+
+/* fin de la zona para más de 800px de ancho de pantalla */
+@media screen and (min-width:1200px) {
+	body {
+		font-size:120%;
+
+		/* ampliamos más aún los textos si mide más de 1200px */
+	}
+}
+
+img, video, object { max-width:100%; }
+
+
+
+.buttons {
+  color: #fff;
+  padding: 10px;
+  box-shadow: black 10px;
+  background: linear-gradient(#ff8900, #ff7700, rgb(255, 55, 0));
+  border-color: #db8046;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium';
+  text-align: center;
+  font-size: 180% !important;
+}
+
+.cantidad-button {
+  position: fixed;
+  height: 100%;
+  margin: auto;
+  border: black 2px;
+  background-color: #fff;
+  z-index: 14;
+  box-shadow: black 40px;
+}
+
+
+input[type="text"] {  
+  min-width: 10px !important;
+  z-index: 34 !important;
+}
+
+
+
+
+
+
+#submit {
+  
+  animation-duration: 1s;
+  animation-name: enviar;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes enviar {
+  0%{
+    width: 30%;
+  }
+
+  1%{
+    width: 31%
+  }
+  
+  2%{
+    width: 32%
+  }
+  
+  3%{
+    width: 33%
+  }
+  
+  4%{
+    width: 34%
+  }
+  
+  5%{
+width: 35%
+  }
+}
+
+
+
+
+#finalizar-pedido-button {
+
+  animation-duration: 1s;
+  animation-name: finalizarpedido;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes finalizarpedido {
+  0%{
+border: #db8046 solid 3px;
+color: #ff5500;
+background: white;
+  }
+
+  50%{
+
+    font-size:x-large ;
+  }
+
+  100%{
+    border: #db8046 solid 3px;
+  }
+}
+
+
+
+#arrowvercarrito {
+
+  animation-duration: 1s;
+  animation-name: arrowvercarrito;
+  animation-iteration-count: infinite;
+  position: fixed;
+  margin-left: 20%;
+
+}
+
+
+@keyframes arrowvercarrito {
+  0%{
+height: 200px;
+  }
+
+  50%{
+
+height: 130px;
+  }
+
+  100%{
+    height: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+   
+}
+#btn-modal:checked ~ .modal{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor{
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	background: #fff;
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+}
+#btn-modal:checked ~ .modal .contenedor{
+	transform: translateY(0%);
+    opacity: 1;
+} 
+.contenedor header{
+	padding: 10px;
+	background: #db8046;
+	color: #fff;
+}
+.contenedor label{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	font-size: 45px;
+	cursor: pointer;
+}
+.contenido{
+	width: 100%;
+	padding: 10px; 
+}
+.contenido h3{
+	margin-bottom: 10px;
+}
+.contenido p{
+	margin-bottom: 7px;
+}
+#btn-modal{
+	display: none;
+}
+.lbl-modal{
+	background: #fff;
+	padding: 10px 15px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.contenedor{
+		width: 95%;
+	}
+}
+
+.btn-group {
+    text-align: center;
+  }
+  
+
+
+  .modal {
+    position: fixed;
+    margin-top: 140px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 80;
+    width: 100% !important;
+    height: auto;
+  }
+  
+  .modal.is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .modal-dialog {
+    position: relative;
+    width: 100% !important;
+    height: 80px;
+    border-radius: 5px;
+    overflow: auto;
+    cursor: default;
+  }
+
+  
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .modal-header .close-modal {
+    font-size: 45px;
+  }
+  
+
+  
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.headernav {
+ width: 100%;
+ height: 70px;
+ background: #ff8900;
+ position: fixed;
+ z-index: 342;
+}
+
+.palmaspizzalogo {
+ height: 55px;
+ background-color: #ff8900;
+ margin: 2px;
+ padding-top: 8px;
+
+}
+
+#total {
+  background-color: #ffffff;
+z-index: 9 !important;
+margin-top: 6px;
+margin-left: 74px;
+max-width: 40%;
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+font-size: 150% !important;
+color: #ff6a00;
+font-size: 170% !important;
+letter-spacing: 1px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border-left: 0px;
+padding: 20px;
+}
+
+
+#signopeso {
+  position: fixed;
+  background-color: #ffffff;
+z-index: 1672 !important;
+color: #ff6a00;
+font-size: 190% !important;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border-left: 0px;
+margin-left: 144px;
+margin-top: 20px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(fondo.jpg);
+    background-attachment: fixed;
+  }
+
+  .modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: all 500ms ease;
+	opacity: 1;
+	visibility: hidden;
+    box-shadow: 10px 70px 250px rgb(0, 0, 0);
+}
+#btn-modal:checked ~ .modal{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor{
+	height: 300px;
+	margin: auto;
+	background: #fff;
+	box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+}
+#btn-modal:checked ~ .modal .contenedor{
+	transform: translateY(0%);
+} 
+.contenedor header{
+	background: #db8046;
+	color: #fff;
+}
+.contenedor label{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+}
+.contenido{
+	width: 100%; 
+}
+.contenido h3{
+  
+}
+.contenido p{
+
+}
+#btn-modal{
+	display: none;
+}
+.lbl-modal{
+	background: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.contenedor{
+		width: 100% !important;
+	}
+}
+
+  .formulario {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0px;
+    box-shadow: 0px !important;
+    position: relative;
+    background: rgb(255, 255, 255);
+  }
+  
+  .imgLogo {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /*border: 1px solid rgba(109, 86, 10, 0.7);*/
+  }
+  
+  .formulario__titulo,
+  .formulario__subtitulo,
+  .formulario__parrafo {
+    text-align: center;
+    margin-top: 0;
+    color: rgb(255, 102, 0) !important;
+  }
+  .formulario__titulo,
+  .formulario__subtitulo {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .formulario__parrafo {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .formulario__input,
+  .formulario__label {
+    display: block;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium';
+  }
+  .formulario__input {
+    padding: 10px;
+    background: white;
+    /* puedo colocar otro color pero con transparencia asi: background: rgba(0,0,0,0.1) porque sino no se ven las label, aunque ya no es necesario porque ya no estan sobre los input y ademas le quite el z-index*/
+    border: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #ff7700;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .formulario__input:focus {
+    /*outline: 1px solid rgba(0,0,0,0.7);*/
+    outline: none;
+    border-bottom: #ff7700;
+    box-shadow: 0px 3px 0px #ff7700;
+    transform: translateX(0%);
+  }
+
+  .formulario__input:focus::after {
+    /*outline: 1px solid rgba(0,0,0,0.7);*/
+    outline: none;
+    border-bottom: #ff7700;
+    box-shadow: 0px 3px 0px #ff7700;
+    transform: translateX(0%);
+  }
+
+
+
+
+
+  /*.formulario__input:focus + .formulario__label{
+      margin-top: -120px;
+  }*/
+  .formulario__label {
+    padding-left: 15px;
+    /*position: absolute;*/
+    /*margin-top: -78px;*/
+    /*z-index: -20;*/
+    color: rgba(0, 0, 0, 0.7);
+    /*transition: all 0.2s;*/
+    margin: 2px;
+    color: #ff6a00;
+  }
+  .formulario__submit {
+    background: linear-gradient(#075E54, #128C7E, #0eb54b);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    font-size: 180%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    position: relative;
+  }
+  
+  /*Centrar los campos del formulario (Los input y el boton de Enviar al WhatsApp, que tambien es un input)*/
+  
+  .formulario__input,
+  .formulario__submit {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /*.fijar {
+      margin-top: -120px;
+  } */
+  
+  /* respuesta del formulario */
+  #respuesta {
+    position: inherit;
+    width: 100%;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5%;
+  }
+  #respuesta.fail {
+    color: red;
+    z-index: 909999;
+  }
+  #respuesta.send {
+  }
+  
+  #telefono {
+    padding-left: 45px;
+    background-color: transparent;
+    z-index: 2;
+    position: absolute !;
+    margin-top: -18% !;
+    margin-left: 1% !; 
+  }
+
+  #telefono::-moz-focus-inner{
+    background-color: transparent;
+  }
+  #codigodepais {
+    position: absolute;
+  margin-top: -18%;
+  margin-left: 1%;
+  width: auto;
+  padding: 0;
+  border: none;
+  color: black;
+z-index: 14 !important;
+background-color: transparent;
+position: relative; 
+}
+
+.item {
+    border: solid #ff8900 10px ;
+    width: 200px;
+    height: 200px;
+}
+
+.item-img {
+    width: 50px;
+    height: 50px;
+}
+
+#concuantocancela {
+ position: fixed;
+ width: 90%;
+ height: 60%;
+ margin: auto;
+ border: black 2px;
+ background-color: #fff;
+ z-index: 6;
+ box-shadow: black 40px;
+}
+
+
+
+#pagacon::placeholder{
+    color: black;
+}
+
+#formadepago{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -18%;
+    font-size: 200%;
+    border: 0px;
+    padding: 0px;
+    width: 80%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: auto;
+    text-align: center;
+      z-index: 1 !important;
+  }
+
+#formadepagox{
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -20%;
+  font-size: 200%;
+  border: 0px;
+  padding: 0px;
+  width: 80%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: auto;
+  text-align: center;
+  z-index: 2 !important;
+
+}
+
+
+
+
+
+
+.button {
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+    box-shadow: black 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 19px;
+    background: linear-gradient(#ff8900, #ff7700, rgb(255, 55, 0));
+    border: #db8046;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 19px;
+    text-align: center;
+    padding: 10;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+#efectivo {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -11px;
+    font-size: 18px;
+    height: 46px;
+    z-index: 3;
+    padding: auto;
+}
+
+#transferencia {
+  position: absolute;
+  margin-left: 135px;
+  margin-top: -11px;
+  font-size: 18px;
+  height: 46px;
+  z-index: 3;
+  padding: auto;
+  
+}
+
+.formulario__pizza {
+  height: 150px;
+}
+
+.img-pizza {
+width: 100px;
+position: relative;
+
+}
+
+#imagen-napolitana {
+  position: relative;
+}
+
+.nombre-pizza {
+position: relative;
+margin: 0;
+margin-left: 125px;
+font-family: impact;
+font-size: 200%;
+margin-top: -115px;
+
+}
+
+.ing-pizza {
+margin: 0;
+color: rgb(255, 123, 0);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 140%;
+margin-top: 1px !important;
+width: 60%;
+position: relative;
+margin: 0;
+margin-left: 125px;
+font-family: impact;
+letter-spacing: 0.2px;
+
+}
+
+.ing-arma-tu-pizza {
+  margin: 0;
+  color: rgb(0, 0, 0) !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
+  margin-top: 1px !important;
+  width: 60.9%;
+  position: relative;
+  margin: 0;
+  margin-left: 125px;
+  font-family: impact;
+  letter-spacing: 0.2px;
+  }
+
+  .nombre-arma-tu-pizza {
+    position: relative;
+    margin: 0;
+    margin-left: 125px;
+    font-family: impact;
+    font-size: 200%;
+    margin-top: -115px;
+    color: #ff5500 !important;
+    
+    }
+
+
+
+.precio-pizza {
+  margin: 0;
+  color: rgb(0, 0, 0);
+  font-size: 200%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  margin-left: 72%;
+  margin-top: -50px;
+
+  }
+
+.precios {
+ margin-top: -90px;
+ font-size: 80%;
+}
+
+.buttonpizza {
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+.input__cantidad{
+  width: 20px;
+}
+
+.quitar {
+position: absolute;
+width: 60px;
+margin-left: 230px;
+margin-top: 87px;
+height: 47px;
+
+}
+
+.agregar {
+  position: absolute;
+width: 60px;
+margin-left: 350px;
+margin-top: 87px;
+height: 47px;
+}
+
+.tamaño {
+  background: transparent;
+  border: #ff6a00;
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;  
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+
+/* REAL MODAL */
+.modal {
+  background-color: #8d3c3c;
+  max-width: 100%;
+  border-radius: 5px;
+
+
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+
+.open-modal {
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.modal {
+  position: relative;
+  margin-top: 140px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 80;
+  z-index: 100;
+
+}
+
+.modal.is-visible {
+  visibility: visible;
+  opacity: 9;
+}
+
+.modal-dialog {
+  position: relative;
+
+
+  border-radius: 5px;
+  overflow: auto;
+  cursor: default;
+
+}
+
+.modal-dialog > * {
+  
+}
+
+.modal-header,
+.modal-footer {
+  background: var(--lightgray);
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-header .close-modal {
+  font-size: 45px;
+}
+
+.modal p + p {
+
+}
+
+.button-select {
+  border-radius: 8px;
+  color: #ff7700;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 150%;
+  background: #fff;
+  border: solid #ff7700 4px;
+  text-align: center;
+  padding: 10;
+  
+}
+
+
+
+.button-ing {
+  border-radius: 8px;
+  color: #ff7b08;
+  padding: 10px;
+  padding-top: 3px;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 170%;
+  background: #fff;
+  border: solid #000000 4px;
+  text-align: center;
+  width: 130px;
+
+}
+
+
+
+.add1000class {
+  color: black;
+  font-size: 80%;
+  text-decoration: underline #00ac2b;
+}
+
+.addmoreclass {
+  font-size: 80%;
+  color: #00ac2b;
+}
+
+.button-ing-selected{
+  border-radius: 8px;
+  color: #ff4800;
+  padding: 10px;
+  padding-top: 3px;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 170%;
+  background: #fff;
+  border: solid #ff6a00 5px;
+  text-align: center;
+  width: 130px;
+  box-shadow: 0px 0px 12px 3px #62ff00;
+}
+
+
+.carrofixedheader {
+  position: fixed;
+  height: 8%;
+  margin-top: -53px;
+ background-color: transparent;
+  padding: 6px;
+  border-radius: 0px;
+  margin-left: 0%;
+  z-index: 20;
+
+}
+
+
+
+@keyframes carritodecompras {
+
+  0% {
+
+  }
+
+  3% {
+    
+  }
+  
+}
+
+#carrito {
+ padding-right: 12px;
+ border-radius: 0;
+ border-top-left-radius: 8px;
+ border-bottom-left-radius: 8px;
+ margin-top: -28px;
+ border-right: 0px;border-left: 2px solid black;
+}
+
+
+#button-carrito{
+  position: fixed;
+  margin-top: 6px;
+  background-color: transparent;
+  z-index: 138737874843784 !important;
+  padding-right: 45%;
+  height: 56px !important;
+}
+
+.buttxn {
+  border: #fff;
+  color: #fff;
+  background-color: transparent;
+  width: 0px !important;
+  height: 0px !important;
+  border-radius: 7px;
+}
+
+#title-header-nav-1 {
+  z-index: 1;
+  font-size: 140%;
+  font-family: sans-serif;
+  color: #fff;
+  margin-top: -50px;
+  margin-left: 100px;
+  background-color: #ff8900;
+  height: 33px;
+ }
+ 
+ #title-header-nav-2 {
+   z-index: 1;
+   font-size: 150% !important;
+   font-family: sans-serif;
+   color: #fff;
+   margin-top: -39px !important;
+   margin-left: 95px;
+   background-color: transparent;
+   height: 23px ;
+  }
+
+@media screen and (max-width:480px){
+	body {
+		font-size:80%;
+	} 
+}
+
+@media screen and (min-width: 1024px) { }
+
+@media screen and (min-width: 321px) and (max-width: 768px) { }
+
+/* Diseño para celulares */
+#columna1, #columna2, #columna3 {
+	float:none;
+	width:100%;
+}
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+	#columna1, #columna2 {
+		float:left;
+		width:50%;
+	}
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 1025px) {
+	#columna1, #columna2, #columna3 {
+	float:left;
+	width:33%;
+}
+}
+
+body {
+	font-size: 14px !important;
+  background: linear-gradient(#ffb45f99, #ff77008b, rgba(255, 94, 0, 0.774));
+}
+
+/* porcentaje base, solo en el body */
+p {
+	font-size:0.9em;
+}
+h1 {
+	font-size: 250%;
+}
+h2 {
+	font-size:1.4em;
+}
+#pie {
+	font-size:1.2em;
+}
+.epigrafes {
+	font-size:1.1em;
+}
+
+/* fin de zona común a todas las resoluciones */
+@media screen and (min-width:800px) {
+	body {
+		font-size:100%;
+		/* ampliamos los textos si mide más de 800px */
+	}
+}
+
+/* fin de la zona para más de 800px de ancho de pantalla */
+@media screen and (min-width:1200px) {
+	body {
+		font-size:120%;
+
+		/* ampliamos más aún los textos si mide más de 1200px */
+	}
+}
+
+img, video, object { max-width:100%; }
+
+
+.buttons {
+  color: white;
+  padding: 10px;
+  box-shadow: black 10px;
+  background: linear-gradient(#ff8900, #ff7700, rgb(255, 55, 0));
+  border: #db8046;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium';
+  text-align: center;
+  padding: 10;
+  font-size: 180% !important;
+}
+
+.cantidad-button {
+  position: fixed;
+  height: 100%;
+  margin: auto;
+  border: black 2px;
+  background-color: #fff;
+  z-index: 14;
+  box-shadow: black 40px;
+}
+
+
+input[type="text"] {  
+  min-width: 10px !important;
+  z-index: 34 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

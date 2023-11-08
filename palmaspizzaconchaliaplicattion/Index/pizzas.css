@@ -1,0 +1,263 @@
+
+
+
+
+.pizza-imagen{
+  width: 100%;
+  text-align: center;
+}
+
+.button-agregar-ing {
+  color: #fff;
+  padding: 10px;
+  background: #ff8900;
+  border: #db8046;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 170% !important;
+  text-align: center;
+  width: 95%;
+  margin-left: 2% !important;
+}
+
+.tamaño {
+  background: transparent;
+  color: #ffffff;
+  border: #ff6a00 solid;
+  margin-left: 15px;
+}
+
+.button-select {
+  border-radius: 5px;
+  color: #ff7700;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 150%;
+  background: #fff;
+  border: solid #ff7700 4px;
+  text-align: center;
+  
+}
+
+
+.instrucciones__input {
+  max-width: 90%;
+  width: 90%;
+  margin-left: 5%;
+  height: 50px !important;
+  border: #ff6a00 solid 3px;
+}
+
+
+.ing-img{
+width: auto;
+height: 40px !important;
+margin-left: 1px !important;
+}
+
+
+
+.agregar-al-pedido { 
+color: #fff;
+padding: 10px;
+box-shadow: 3px 3px 1px 1px black;
+background: linear-gradient(#ff8900, #ff7700, rgb(255, 55, 0));
+border: 3px solid #ffffff;
+padding: 10px;
+font-family: 'Franklin Gothic Medium';
+font-size: 200% !important;
+text-align: center;
+height: 70px;
+width: 100%;
+}
+
+
+.instrucciones__input {
+max-width: 90%;
+width: 90%;
+margin-left: 5%;
+height: 90px;
+}
+
+.instrucciones__input::placeholder {
+width: auto;
+height: 90px;
+}
+
+
+
+#title-header-nav-1 {
+  z-index: 1;
+  font-size: 140%;
+  font-family: 'Franklin Gothic Medium';
+  color: #fff;
+  margin-top: -50px;
+  margin-left: 100px;
+  background-color: #ff8900;
+  height: 33px;
+ }
+ 
+ #title-header-nav-2 {
+   z-index: 1;
+   font-size: 140%;
+   font-family: 'Franklin Gothic Medium';
+   color: #fff;
+   margin-top: -23px;
+   margin-left: 95px;
+   background-color: #ff8900;
+   height: 23px ;
+  }
+
+
+  #button-carrito{
+      position: fixed;
+      margin-top: 6px;
+      background-color: transparent;
+      z-index: 138737874843784 !important;
+      padding-right: 45%;
+      height: 56px !important;
+    }
+
+    .volver {
+      position: relative !important;
+      margin: auto;
+      padding: 10px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      color: #ff6a00;
+      border: solid 4px #ff7700;
+      border-radius: 4px;
+      font-size: 180%;
+      font-family: 'Franklin Gothic Medium';
+      background-color: #ffffff;
+      width: 100%;
+
+    }
+    
+    .buttxn {
+      border: #fff;
+      color: #fff;
+      background-color: transparent;
+      width: 0px !important;
+      height: 0px !important;
+      border-radius: 7px;
+    }
+
+    .carrofixedheader {
+      position: fixed;
+      height: 8%;
+      margin-top: -53px;
+     background-color: transparent;
+      padding: 6px;
+      border-radius: 0px;
+      margin-left: 0%;
+      z-index: 20;
+      border: white;
+   
+   }
+   
+   #carrito {
+     padding-right: 12px;
+     border-radius: 0;
+     border-top-left-radius: 8px;
+     border-bottom-left-radius: 8px;
+     margin-top: -28px;
+   }
+
+
+
+
+/* REAL MODAL */
+.modal-pizzas {
+  background-color: #8d3c3c;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 5px 52px 8px rgb(0, 0, 0);
+
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+
+.open-modal {
+  font-weight: bold;
+  color: white;
+  padding: 0.75rem 1.75rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  display: inline-inline-block;
+}
+
+.btn-group {
+}
+
+.modal-pizzas {
+  position: fixed;
+  margin-top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 80;
+  height: auto;
+  z-index: 100;
+}
+
+.modal.is-visible {
+  visibility: visible;
+  opacity: 9;
+}
+
+.modal-dialog {
+  position: relative;
+
+
+  border-radius: 5px;
+  overflow: auto;
+  cursor: default;
+
+}
+
+.modal-dialog > * {
+  
+}
+
+.modal-header,
+.modal-footer {
+  background: var(--lightgray);
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-header .close-modal {
+  font-size: 45px;
+}
+
+.modal p + p {
+
+}
+
+
+
+
+
+
+
+
+

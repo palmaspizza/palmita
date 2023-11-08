@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palmas Pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/PalmasPizzaIMG/palmaspizzalogo.png">
+    <link rel="stylesheet" href="ventana.css">
+</head>
+<header>
+    <div class="headernav">
+ <button style="margin: 0; padding: 0; border: #ff8900; background-color: #ff8900; background: #ff8900;"><img src="PalmasPizzaIMG/palmaspizzalogo.png" alt="" class="palmaspizzalogo"></button>  
+ <h1 id="title-header-nav">Palmas Pizza</h1> 
+</div>
+</header>
+<body>
+    <form action="" class="formulario">
+        
+        <form action="" class="formulario">
+            <h1 class="formulario__titulo">Finalizar Pedido</h1>
+            <p style="text-align: center; margin: auto; padding: auto; position: relative; margin-top: -97px; color: #ff5e00; font-size: 70px;">________</p>
+            <br>
+            <h3 class="formulario__subtitulo" style="color: black !important;">Ingresa tus datos</h3>
+        
+        
+            <label for="nombre" class="formulario__label">Nombre</label>
+            <input
+              id="nombre"
+              type="text"
+              class="formulario__input"
+              placeholder="Indica cuál es tu nombre"
+            />
+            
+        <br>
+        
+            <label for="telefono" class="formulario__label">Teléfono</label>
+            <input
+              id="telefono"
+              type="text"
+              class="formulario__input"
+              placeholder="Indica cuál es Teléfono"
+              style=" position: relative; background-color: transparent; #telefono::-moz-focus-inner{
+                background-color: transparent;
+              }"
+            />
+        
+            <label for="codigodepais"></label>
+            <input
+              id="codigodepais"
+              type="text"
+              class="formulario__input"
+              value="+56"
+              readonly style="font-size: 15px; " autocomplete="off"
+            />
+<br>
+
+            <label for="direccion" class="formulario__label">Dirección</label>
+            <input
+              id="direccion"
+              type="text"
+              class="formulario__input"
+              placeholder="Indica cuál es tu Dirección"
+              style=" position: relative;"
+            />
+            
+<div >
+            <label style="margin-left: 0px; font-size: 20px; font-family: impact; color: black;" for="formadepago" class="formulario__label">Forma de pago:</label>
+            <input readonly
+              id="formadepago"
+              type="text"
+         />
+<br>
+     <button type="button" id="efectivo" value=" 💸Efectivo" class="open-modal" data-open="concuantocancela">
+     Efectivo
+     </button>
+     <div class="btn-group" >
+        <div class="modal" id="concuantocancela" data-animation="slideInOutLeft">
+          <div style="height: auto;" class="modal-dialog">
+            <head>
+                <h2 style="margin-top: 0px; font-size: 20px;">¿Con cuanto cancela?</h2>
+            </head>
+             
+    
+
+            
+            <section class="modal-content">
+                <label for="pagacon"></label>
+                <input
+                id="pagacon"
+                type="number"
+                placeholder="$" class="formulario__input"  style="padding: 0; width: 60%; font-size: 22px; text-align: center;" />
+                
+                <button type="button" style="z-index: 4; position: fixed; text-align: center; padding-left: 25px; padding-right: 25px; padding-top: 10px; padding-bottom: 10px; margin-right: 1px !important;" data-close="">
+                    Listo
+                </button>
+
+                 
+                <button type="button" style="z-index: 4; position: fixed; text-align: center; padding: 10px; padding-top: 10px; padding-bottom: 10px; margin-left: -100px !important;" data-close="" onclick="borrarformadepago();">
+                    Cambiar
+                </button>
+                
+          </div>
+        </div>
+        </div>
+
+        <button id="open" type="button">
+            Efectivo
+          </button>
+          
+          <div id="modal_container" class="modal-container">
+            <div class="modal">
+                <head>
+                    <h2 style="margin-top: 0px; font-size: 20px;">¿Con cuanto cancela?</h2>
+                </head>
+                 
+        
+                <section class="modal-content">
+                    <label for="pagacon"></label>
+                    <input 
+                    id="pagacon"
+                    type="number"
+                    placeholder="$" class="formulario__input"  style="padding: 0; width: 60%; font-size: 22px; text-align: center;" />
+                    
+                    <button type="button" id="close" style="z-index: 4; position: fixed; text-align: center; padding-left: 25px; padding-right: 25px; padding-top: 10px; padding-bottom: 10px; margin-right: 1px !important;" data-close="">
+                        Listo
+                    </button>
+    
+                     
+                    <button id="close" type="button" style="z-index: 4; position: fixed; text-align: center; padding: 10px; padding-top: 10px; padding-bottom: 10px; margin-left: -100px !important;" data-close="" onclick="borrarformadepago();">
+                        Cambiar
+                    </button>
+            </div>
+          </div>
+
+
+
+
+
+
+
+     
+
+     <button type="button" id="transferencia" value="📲 Transferencia">
+        Transferencia
+     </button>
+     
+
+
+
+    
+        
+            <div id="respuesta"></div>
+        
+            <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+            
+          </form>
+      </form>
+
+   
+      <script src="ventana.js"></script>
+</body>
+</html>
